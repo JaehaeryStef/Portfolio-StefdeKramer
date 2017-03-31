@@ -1,0 +1,189 @@
+.menu {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: solid black 1px;
+    background-color: #909090;
+    background-size: cover;
+    border-radius: 15px;
+}
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: #e2e2e2;
+        font-style: normal;
+    }
+
+    nav a {
+        display: block;
+        background-color: #8dff97;
+        width: 15%;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.6em;
+        border: solid black 1px;
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+        max-width: 300px;
+        height: 30px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: #e2e2e2;
+        font-style: normal;
+    }
+
+    nav a {
+        display: block;
+        background-color: #8dff97;
+        width: 15%;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.6em;
+        border: solid black 1px;
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+        max-width: 300px;
+        height: 30px;
+
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: #e2e2e2;
+        font-style: normal;
+    }
+
+    nav a {
+        display: block;
+        background-color: #8dff97;
+        width: 35%;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.4em;
+        border: solid black 1px;
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+        max-width: 300px;
+        height: 30px;
+
+    }
+    .aboutplaatsen {
+        float: right;
+        text-align: left;
+        margin-right: 40px;
+        font-size: 21px;
+    }
+
+
+}
+
+nav {
+    text-align: left;
+}
+
+ul {
+}
+
+a {
+
+}
+
+a:hover {
+    color: #000000;
+    background-color: white;
+}
+
+.bedrijfsnaam {
+    width: 2200px;
+    overflow: hidden;
+    background-color: #65b0ff;
+    height: 100%;
+    border-bottom: solid black 1px;
+    background-position-x: 550px;
+    background-position-y: 10px;
+    background-size: 140px;
+    float: left;
+    margin: auto;
+    padding: 15px;
+
+}
+
+.naam {
+
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-underline: red;
+
+    max-width: 300px;
+    height: 100%;
+    float: left;
+
+
+}
+
+.nummer {
+    float: right;
+    padding: 90px;
+    font-size: 20px;
+}
+
+main {
+    border: solid black 1px;
+    border-radius: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.ikben {
+    float: left;
+    width: 400px;
+    margin: 5px;
+    padding: 15px;
+    max-width: 300px;
+    height: 100%;
+
+    }
+
+
+
+.foto {
+    padding: 30px;
+    float: left;
+    margin: 5px;
+    max-width: 300px;
+    height: 300px;
+
+}
+
+
+
+.credit {
+    width: 1000px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+
+    border: solid black 1px
+}
+
+.underleft {
+    float: left;
+    margin-left: 20px;
+
+}
+
+

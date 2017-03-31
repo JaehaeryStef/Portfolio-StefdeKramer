@@ -1,0 +1,319 @@
+/*Menu code voor website*/
+.menu {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: solid black 1px;
+    background-color: #909090;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+/*Media query zodat alles met een scherm groter dan 1200 px deze code gaat gebruiken*/
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: #e2e2e2;
+        font-style: normal;
+    }
+
+    nav a {
+        display: block;
+        background-color: #8dff97;
+        width: 15%;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.6em;
+        border: solid black 1px;
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+        max-width: 300px;
+        height: 30px;
+
+    }
+    .bedrijfsinfo {
+        float: left;
+        margin: 5px;
+        padding: 15px;
+        max-width: 400px;
+        height: 100%;
+
+        font-size: 20px;
+
+    }
+}
+
+/*Media query zodat alle schermen met een scherm kleiner dan 1200px deze code gaat gebruiken.*/
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: #e2e2e2;
+        font-style: normal;
+    }
+
+    nav a {
+        display: block;
+        background-color: #8dff97;
+        width: 15%;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.6em;
+        border: solid black 1px;
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+        max-width: 300px;
+        height: 30px;
+
+    }
+    .bedrijfsinfo {
+        float: left;
+        margin: 5px;
+        padding: 15px;
+        max-width: 300px;
+        height: 100%;
+
+        font-size: 15px;
+
+    }
+}
+/*Media query zodat alle schermen kleiner dan 800 pixels deze code gaat gebruiken/*/
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: #e2e2e2;
+        font-style: normal;
+    }
+
+    nav a {
+        display: block;
+        background-color: #8dff97;
+        width: 35%;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.4em;
+        border: solid black 1px;
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+        max-width: 300px;
+        height: 30px;
+
+    }
+
+    .bedrijfsinfo {
+        float: left;
+        margin: 5px;
+        padding: 15px;
+        max-width: 300px;
+        height: 100%;
+
+        font-size: 18px;
+
+    }
+}
+
+nav {
+    text-align: left;
+}
+
+/*ul {*/
+/*}*/
+
+/*a {*/
+
+/*}*/
+
+a:hover {
+    color: #000000;
+    background-color: white;
+}
+
+.bedrijfsnaam {
+    width: 2200px;
+    overflow: hidden;
+    background-color: #65b0ff;
+    height: 100%;
+    border-bottom: solid black 1px;
+    background-position-x: 550px;
+    background-position-y: 10px;
+    background-size: 140px;
+    float: left;
+    margin: auto;
+    padding: 15px;
+
+}
+
+.naam {
+
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-underline: red;
+
+    max-width: 300px;
+    height: 100%;
+    float: left;
+
+
+}
+
+.nummer {
+    float: right;
+    padding: 90px;
+    font-size: 20px;
+}
+
+main {
+    border: solid black 1px;
+    border-radius: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 100%
+}
+
+.werkvormen {
+    font-size: 20px;
+    /*margin-left: 20px;*/
+    margin-top: 15px;
+    width: 450px;
+    height: 729px;
+    /*background-color: #f0485b;*/
+    /*border: solid black;*/
+    text-align: center;
+    background-color: rgba(236, 236, 236, 0.91);
+    display: block;
+    float: left;
+    border: solid black 1px;
+    border-radius: 15px;
+}
+
+.verven {
+    background-image: url("https://static.gamma.nl/medias/sys_master/h01/h69/8796973858846.jpg");
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+.behangen {
+    background-image: url("http://www.behangstore.nl/FFoundation/thumbnail.php?img=data%2Fimages%2Fonszelf_oz7300-285431.jpg&w=600&h=600");
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    background-size: 360px;
+    border-bottom: solid black 1px;
+}
+
+.sauzen {
+    background-image: url("http://www.zaandam-schilder.nl/files/2014/09/Schilder-WitSauzen-4.jpg");
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    border-bottom: solid black 1px;
+    border-radius: 15px;
+}
+
+.opmaak {
+    width: 200px;
+    height: 600px;
+}
+
+.text {
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.place {
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.bodye {
+    border: solid black 1px;
+    border-radius: 15px;
+    width: 1100px;
+    height: 1250px;
+    margin-left: 400px;
+    /*margin-right: 750px;*/
+    background-color: white;
+}
+
+.marja {
+    width: 285px;
+    height: 250px;
+    border: solid black 1px;
+    border-radius: 15px;
+    float: left;
+    margin: 15px;
+    padding: 5px;
+
+}
+
+.recensie {
+    margin-left: 50px;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.data-field {
+    text-align: center;
+    padding: 5px;
+
+}
+
+.recht {
+
+}
+
+.link {
+    text-align: center;
+}
+
+/*.credit {*/
+/*width: 1000px;*/
+/*background-color: white;*/
+/*border-radius: 15px;*/
+/*margin: auto;*/
+
+/*border: solid black 1px*/
+/*}*/
+
+.underleft {
+    float: left;
+    margin-left: 20px;
+
+}
+
+.undermiddle {
+    text-align: center;
+}
+
+.underright {
+    float: right;
+    margin-top: -18px;
+    margin-right: 20px;
+}
+
+.rood {
+    margin: auto;
+    float: right;
+}
+
